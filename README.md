@@ -34,13 +34,16 @@ docker exec -it devops-portfolio /bin/bash
 ```
 
 Build the Docker container image:
+
 docker commit devops-portfolio portfol_img
 
 install apache inside the container 
+
 apt-get update ubuntu -y
 apt-get install apache2 -y 
 
 -->start the service<-- 
+
 service apache2 start
 
 Open in browser:
