@@ -40,6 +40,7 @@ docker commit devops-portfolio portfol_img
 install apache inside the container 
 
 apt-get update ubuntu -y
+
 apt-get install apache2 -y 
 
 -->start the service<-- 
